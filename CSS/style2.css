@@ -1,0 +1,123 @@
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    text-align: center;
+  
+  }
+
+  p{
+    margin: 0;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+
+.event-details p{
+  padding-left: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin: 20px;
+  padding: 0;
+  margin: 10px 0;
+  color: #ffffff;
+  box-shadow: inset;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  
+}
+.event-description p {
+  margin-top: 20px;
+  margin: 20px;
+  padding: 20px;
+  color: #cec1c1;
+  box-shadow: inset;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+ 
+}
+
+.event-details strong {
+  font-weight: bold;
+
+}
+
+.products {
+  padding: 20px;
+}
+
+.events {
+  display: flex  ;
+  display: inline-block;
+  vertical-align: top;
+  width:300px;
+  height: 450px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 5;
+  padding: 0;
+  place-items: center;
+
+}
+
+.events:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.events h3 {
+  margin: 0;
+  text-align: center;
+  color: #555;
+}
+
+.events p {
+  margin: 0;
+  text-align: center;
+  color: #555;
+
+}
+
+.events img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.products {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: #f2f2f2;
+
+}
+
+.product {
+  display: inline-block;
+  vertical-align: top;
+  width:300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  align-items: center;
+}
+

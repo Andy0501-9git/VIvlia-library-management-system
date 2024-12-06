@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+
+
+  <title>Registration Form</title>
+</head>
+
+<style>
+
+body {
+  background-image: url('images/Library.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto!important;
+  position: relative;
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.navbar-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c7ad6;
+    text-decoration: none;
+}  
+
+.registration-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width:400px;
+  text-align: center;
+  position: relative;
+  top: 70px;
+  bottom: 40px;
+  margin: 0 auto;
+  position: fixed;
+}
+
+
+
+.registration-container h1 {
+  margin-bottom: px;
+  color: #007bff;
+
+}
+
+.registration-container form label {
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.registration-container form input,
+.registration-container form select {
+  width: 100%;
+  padding: 4px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-container form .btn-submit {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-container form .btn-submit:hover {
+  background-color: #0056b3;
+}
+
+</style>
+
+  <div class="navbar">
+    <a class="navbar-logo" href="index.html"><b style="color: #2c7ad6;">VIVLIA</b></a>
+    <div class="navbar-right">
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="Book_Categories.html">Book Categories</a>
+      <a href="Events.html">Events</a>
+    </div>
+  </div>
+
+  <div class="registration-container">
+    <h1>Registration Form</h1>
+    <form action="#" method="POST">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" required>
+      
+      <label for="district">District</label>
+      <input type="text" id="district" name="district" required>
+      
+      <label for="role">Select Role</label>
+      <select id="role" name="role" required>
+        <option value="admin">Admin</option>
+        <option value="student">Student</option>
+      </select>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+      
+      <button class="btn-submit" type="submit">Register</button>
+    </form>
+  </div>
+
+
+  <footer class="footer"> 
+    <p class="footer-text">&copy;Library Management System. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
